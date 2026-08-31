@@ -7,3 +7,9 @@ __pycache__/
 .venv/
 node_modules/
 ~$*
+
+# academic-deck render cache (PDF, contact sheets, downscaled figures)
+slides/.academic-deck/
+
+# internal planning notes (kept local only)
+PLANNING.md
