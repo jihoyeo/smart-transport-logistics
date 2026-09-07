@@ -68,7 +68,7 @@ materials/    참고자료, 데이터, 코드
 
 | 덱 | 분량 | 내용 |
 |---|---|---|
-| `common/dev_env.md` | 60분 | VS Code·파이썬 설치, Claude Code·Codex·Antigravity 설치, 에이전트와 함께 하는 환경 세팅 |
+| `common/dev_env.md` | 60~75분 | VS Code·파이썬 설치, Claude Code·Codex·Antigravity 설치, 권한 모드, 명령어와 토큰 관리 |
 
 공용 덱의 그림은 `slides/tools/make_figures_common.py`가 만듭니다. 교재 데이터를 쓰지 않으므로 matplotlib만 있으면 실행됩니다.
 
