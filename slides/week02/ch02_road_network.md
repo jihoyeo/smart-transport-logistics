@@ -45,6 +45,20 @@ toc_label: 교재 2장
 
 > 교재 2장 학습 목표와 같다. 화요일이 앞의 세 개, 수요일이 마지막 하나와 실습이다.
 
+## 교재와 실습을 여는 곳
+
+표: 오늘 여는 파일과 경로
+| 자료 | 경로 |
+|---|---|
+| 교재 원고 | ko/ch02_road_network.md |
+| 실습 노트북 | labs/ch02_road_network.ipynb |
+
+- 저장소: github.com/jihoyeo/mobility-simulation-book — blob/main 아래 경로
+- 노트북 실행: jupyter lab labs/ch02_road_network.ipynb
+- 진행 순서: 슬라이드 개요 → 교재 본문 → 실습 노트북
+
+> 슬라이드는 개요만 다룬다. 세부 내용과 코드는 교재 원고와 실습 노트북에서 확인한다. 교재 저장소는 비공개이므로 초대받은 계정으로 로그인한 상태여야 주소가 열린다.
+
 # 교재 2.1 도로망은 표 두 개
 
 ## 노드 표와 엣지 표

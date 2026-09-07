@@ -44,6 +44,20 @@ toc_label: 교재 4장
 
 > 교재 4장 학습 목표와 같다. 두 번째 항목이 오늘의 중심이다.
 
+## 교재와 실습을 여는 곳
+
+표: 오늘 여는 파일과 경로
+| 자료 | 경로 |
+|---|---|
+| 교재 원고 | ko/ch04_speeds_engine.md |
+| 실습 노트북 | labs/ch04_speeds_engine.ipynb |
+
+- 저장소: github.com/jihoyeo/mobility-simulation-book — blob/main 아래 경로
+- 노트북 실행: jupyter lab labs/ch04_speeds_engine.ipynb
+- 진행 순서: 슬라이드 개요 → 교재 본문 → 실습 노트북
+
+> 슬라이드는 개요만 다룬다. 세부 내용과 코드는 교재 원고와 실습 노트북에서 확인한다. 교재 저장소는 비공개이므로 초대받은 계정으로 로그인한 상태여야 주소가 열린다.
+
 # 교재 4.1 시간대별 속도 컬럼
 
 ## 여덟 개의 시간대

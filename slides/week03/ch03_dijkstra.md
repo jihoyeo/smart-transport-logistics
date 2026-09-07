@@ -43,6 +43,22 @@ toc_label: 교재 3장
 
 > 교재 3장 학습 목표와 같다. 네 가지에 각각 답이 나왔는지 마지막 정리 슬라이드에서 확인한다.
 
+## 교재와 실습을 여는 곳
+
+표: 오늘 여는 파일과 경로
+| 자료 | 경로 |
+|---|---|
+| 교재 원고 | ko/ch03_dijkstra.md |
+| 실습 노트북 | labs/ch03_dijkstra.ipynb |
+| 채점 파일 | labs/ch03_dijkstra.py |
+
+- 저장소: github.com/jihoyeo/mobility-simulation-book — blob/main 아래 경로
+- 노트북 실행: jupyter lab labs/ch03_dijkstra.ipynb
+- 진행 순서: 슬라이드 개요 → 교재 본문 → 실습 노트북
+- 자가 채점: python labs/check.py ch03
+
+> 슬라이드는 개요만 다룬다. 세부 내용과 코드는 교재 원고와 실습 노트북에서 확인한다. 교재 저장소는 비공개이므로 초대받은 계정으로 로그인한 상태여야 주소가 열린다.
+
 # 교재 3.1–3.2 문제와 아이디어
 
 ## 다익스트라의 근거
