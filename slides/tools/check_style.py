@@ -42,7 +42,7 @@ GROUPS = [("은유", METAPHOR), ("과장", HYPE), ("상투어", CLICHE), ("홍�
 
 
 def check(path: Path) -> list[str]:
-    lines = path.read_text().splitlines()
+    lines = path.read_text(encoding="utf-8").splitlines()
     problems, in_code, in_comment = [], False, False
 
     for i, ln in enumerate(lines, 1):
