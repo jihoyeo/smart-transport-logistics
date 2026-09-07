@@ -23,7 +23,8 @@ DEFAULT_DST = Path(__file__).resolve().parents[3] / "ai-mobility"
 
 
 def files() -> list[Path]:
-    return sorted(p for p in SRC.rglob("*") if p.is_file() and p.suffix != ".json")
+    return sorted(p for p in SRC.rglob("*")
+                  if p.is_file() and p.suffix != ".json" and not p.name.startswith("~$"))
 
 
 def main(argv: list[str]) -> int:
