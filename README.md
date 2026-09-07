@@ -72,6 +72,13 @@ materials/    참고자료, 데이터, 코드
 
 공용 덱의 그림은 `slides/tools/make_figures_common.py`가 만듭니다. 교재 데이터를 쓰지 않으므로 matplotlib만 있으면 실행됩니다.
 
+같은 파일의 사본이 AI 모빌리티 저장소의 `slides/common/`에도 있습니다. 원본을 고치고 pptx를 다시 만든 뒤 아래 명령으로 사본을 맞춥니다.
+
+```bash
+python slides/tools/sync_common.py           # 사본을 원본에 맞춰 복사
+python slides/tools/sync_common.py --check   # 다른 파일이 있는지만 확인
+```
+
 각 덱의 도입 절에는 그 장의 교재 원고와 실습 노트북 경로를 적은 슬라이드가 있습니다. 수업에서 슬라이드로 개요를 잡은 뒤 교재와 노트북으로 넘어가는 순서를 그 자리에서 안내합니다.
 
 그림은 주차별 `slides/tools/make_figures_week*.py`가 교재 데이터로 생성합니다. 교재 저장소의 가상환경에서 실행합니다.
