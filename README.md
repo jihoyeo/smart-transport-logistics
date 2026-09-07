@@ -45,6 +45,7 @@
 
 ```
 slides/       주차별 강의 슬라이드 — 폴더마다 md 원고 + figures/ + pptx
+slides/common/ 두 과목 공용 덱
 assignments/  과제 명세 및 제출 안내
 materials/    참고자료, 데이터, 코드
 ```
@@ -62,6 +63,14 @@ materials/    참고자료, 데이터, 코드
 | 7 | `week07/ch08_demand.md` · `week07/ch12_metrics.md` | 8장 · 12장 |
 | 10 | `week10/ch09_eta.md` · `week10/ch10_dispatch.md` | 9장 · 10장 |
 | 11 | `week11/ch11_simloop.md` | 11장 |
+
+`slides/common/`은 AI 모빌리티 과목과 함께 쓰는 덱입니다. 원본이 이 저장소에 있고, 양쪽 과목이 같은 파일을 씁니다. 교재 장 번호나 과제 번호처럼 한 과목에만 해당하는 내용은 넣지 않습니다.
+
+| 덱 | 분량 | 내용 |
+|---|---|---|
+| `common/dev_env.md` | 60분 | VS Code·파이썬 설치, Claude Code·Codex·Antigravity 설치, 에이전트와 함께 하는 환경 세팅 |
+
+공용 덱의 그림은 `slides/tools/make_figures_common.py`가 만듭니다. 교재 데이터를 쓰지 않으므로 matplotlib만 있으면 실행됩니다.
 
 그림은 주차별 `slides/tools/make_figures_week*.py`가 교재 데이터로 생성합니다. 교재 저장소의 가상환경에서 실행합니다.
 
