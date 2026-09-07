@@ -85,22 +85,7 @@ def main() -> None:
     draw_network(ax, drive_segs, NAVY, 0.35, "")
     fig.tight_layout(); fig.savefig(OUT / "ch02_network_drive.png"); plt.close(fig)
 
-    # 2. highway counts (top 10)
-    counts = edges["highway"].value_counts().head(10)
-    fig, ax = plt.subplots(figsize=(11.8, 4.7))   # 전체 폭 자리 2.5:1
-    walk_only = ("footway", "cycleway", "path", "steps", "pedestrian")
-    colors = [ORANGE if h in walk_only else NAVY for h in counts.index]
-    ax.barh(counts.index[::-1], counts.values[::-1], color=colors[::-1])
-    for y, v in enumerate(counts.values[::-1]):
-        ax.text(v + 300, y, f"{v:,}", va="center", fontsize=12)
-    ax.set_xlabel("엣지 수"); ax.set_xlim(0, counts.max() * 1.15)
-    ax.text(0.98, 0.05, "주황: 보행·자전거 전용", transform=ax.transAxes, ha="right",
-            color=ORANGE, fontsize=12)
-    for s in ("top", "right"):
-        ax.spines[s].set_visible(False)
-    fig.tight_layout(); fig.savefig(OUT / "ch02_highway_counts.png"); plt.close(fig)
-
-    # 3. before / after
+    # 2. before / after
     fig, axes = plt.subplots(1, 2, figsize=(11.8, 4.7))   # 전체 폭 자리 2.5:1
     draw_network(axes[0], all_segs, GRAY, 0.3,
                  f"전체 엣지 {len(edges):,}개 · {edges['length'].sum()/1000:,.0f} km")
@@ -108,7 +93,7 @@ def main() -> None:
                  f"자동차 엣지 {len(drive):,}개 · {drive['length'].sum()/1000:,.0f} km")
     fig.tight_layout(); fig.savefig(OUT / "ch02_network_before_after.png"); plt.close(fig)
 
-    # 4. snapping around city hall
+    # 3. snapping around city hall
     hall = (37.5393, 127.2148)
     drive_nodes = sorted({n for e in drive["edge_id"] for n in parse_edge_id(e) if n in coord})
     tree = cKDTree([coord[n] for n in drive_nodes])
