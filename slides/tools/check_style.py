@@ -95,6 +95,10 @@ def check(path: Path) -> list[str]:
 
 
 def main() -> int:
+    # 지적 문구에 —, · 같은 글자가 들어간다. 콘솔 기본 인코딩이 cp949면 출력에서 죽는다.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
     paths = [Path(a) for a in sys.argv[1:]]
     if not paths:
         print(__doc__); return 2
