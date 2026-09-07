@@ -27,7 +27,7 @@
 ## 학기 흐름
 
 ```
-1주   환경 준비, 시뮬레이션 개요        ← 첫 시뮬레이션을 돌려 봅니다
+1주   환경 준비, 시뮬레이션 개요        ← 첫 시뮬레이션을 실행합니다
 2주   도로망 데이터
 3주   최단경로 직접 구현                ← 다익스트라 · A*
 4주   시간대별 속도, GTFS
@@ -49,8 +49,37 @@ assignments/  과제 명세 및 제출 안내
 materials/    참고자료, 데이터, 코드
 ```
 
-슬라이드는 `.md`가 원본이고 `.pptx`는 빌드 산출물입니다. 고칠 때는 `.md`를 고치고 다시 빌드합니다:
+슬라이드는 개요만 제시하고, 내용과 코드는 교재를 화면에 표시한 상태로 진행합니다. 덱 하나가 교재 한 장을 다루고, 파일 이름은 교재 원고와 같습니다.
+
+| 주차 | 덱 | 교재 |
+|---|---|---|
+| 1 | `week01/ch01_why.md` · `week01/ch00_setup.md` | 1장 · 0장 |
+| 2 | `week02/ch02_road_network.md` | 2장 |
+| 3 | `week03/ch03_dijkstra.md` | 3장 |
+| 4 | `week04/ch04_speeds_engine.md` · `week04/ch05_gtfs.md` | 4장 · 5장 |
+| 5 | `week05/ch06_raptor.md` | 6장 |
+| 6 | `week06/ch07_raptor_fare.md` | 7장 |
+| 7 | `week07/ch08_demand.md` · `week07/ch12_metrics.md` | 8장 · 12장 |
+| 10 | `week10/ch09_eta.md` · `week10/ch10_dispatch.md` | 9장 · 10장 |
+| 11 | `week11/ch11_simloop.md` | 11장 |
+
+그림은 주차별 `slides/tools/make_figures_week*.py`가 교재 데이터로 생성합니다. 교재 저장소의 가상환경에서 실행합니다.
 
 ```bash
-python3 ~/.claude/skills/md2pptx/scripts/md2pptx.py slides/week01/week01.md
+cd ~/lecture/mobility-simulation-book && .venv/bin/python \
+  ~/lecture/smart-transport-logistics/slides/tools/make_figures_week04.py
 ```
+
+빌드 전에 문체 검사기를 돌립니다.
+
+```bash
+python3 slides/tools/check_style.py slides/*/*.md
+```
+
+`.md`가 원본이고 `.pptx`는 빌드 산출물입니다. 고칠 때는 `.md`를 고치고 다시 빌드합니다:
+
+```bash
+~/miniconda3/bin/python3 ~/.claude/skills/md2pptx/scripts/md2pptx.py slides/week01/ch01_why.md
+```
+
+빌더는 `python-pptx`, `Pillow`, `lxml`이 설치된 파이썬에서 돌아갑니다. 시스템 `python3`에는 없으므로 위 경로를 씁니다. 빌더가 `경고:`를 출력하면 원고를 고치고 다시 빌드합니다.
