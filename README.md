@@ -44,10 +44,13 @@
 ## 디렉터리
 
 ```
-slides/       주차별 강의 슬라이드 — 폴더마다 md 원고 + figures/ + pptx
-assignments/  과제 명세 및 제출 안내
-materials/    참고자료, 데이터, 코드
+slides/           주차별 강의 슬라이드 — 폴더마다 md 원고 + figures/ + pptx
+slides/common/    AI 모빌리티와 함께 쓰는 개발 환경 슬라이드
+assignments/      과제 명세 및 제출 안내
+materials/        참고자료, 데이터, 코드
 ```
+
+`slides/common/dev_env.md`는 이 과목과 AI 모빌리티가 같이 쓰는 1주차 설치 슬라이드입니다. 편집기와 파이썬, AI 코딩 도구 세 가지의 설치와 로그인, 권한 모드를 다룹니다. 원본은 이 저장소에 있고 AI 모빌리티 저장소에는 사본을 둡니다. 내용을 고친 뒤에는 `python3 slides/tools/sync_common.py`로 사본을 맞춥니다.
 
 슬라이드는 `.md`가 원본이고 `.pptx`는 빌드 산출물입니다. 고칠 때는 `.md`를 고치고 다시 빌드합니다:
 
