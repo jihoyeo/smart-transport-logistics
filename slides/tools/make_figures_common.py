@@ -54,7 +54,7 @@ ax.set_ylim(0, 4.7)
 ax.axis("off")
 
 box(ax, 0.2, 2.75, 3.1, 1.3, "편집기", "VS Code · Antigravity")
-box(ax, 0.2, 0.65, 3.1, 1.3, "터미널 에이전트", "Claude Code · Codex")
+box(ax, 0.2, 0.65, 3.1, 1.3, "터미널 에이전트", "Claude Code · Codex · agy")
 box(ax, 4.4, 1.7, 2.7, 1.4, "프로젝트 폴더", "코드 · 데이터 · 결과")
 
 arrow(ax, (3.3, 3.4), (4.4, 2.75))
