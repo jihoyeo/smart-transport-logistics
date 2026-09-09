@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"stop_id": "S01", "stop_name": "가천대역", "routes": "A;B", "note": "1번 출구 앞 정차 지점"},
+      "geometry": {"type": "Point", "coordinates": [127.1265, 37.4487]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"stop_id": "S02", "stop_name": "예시 정류장", "routes": "A", "note": "좌표는 지도 핀이 아니라 실제 정차 지점"},
+      "geometry": {"type": "Point", "coordinates": [127.1280, 37.4510]}
+    }
+  ]
+}

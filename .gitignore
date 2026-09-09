@@ -13,3 +13,6 @@ slides/.academic-deck/
 
 # internal planning notes (kept local only)
 PLANNING.md
+
+# md2pptx 빌드 산출물 (되받기 대상 목록)
+*.sync.json
