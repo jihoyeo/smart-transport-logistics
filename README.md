@@ -38,7 +38,7 @@
 9주   중간시험
 10주  ETA 예측, 배차·물류 최적화
 11주  시뮬레이션 루프 직접 구현
-12주  기말 프로젝트 발표
+12주  기말 개인 프로젝트 보고서 제출
 ```
 
 ## 디렉터리
@@ -46,8 +46,7 @@
 ```
 lessons/           주차별 교수자용 진행표 (1~12주차)
 assignments/       과제 명세, 기말 프로젝트 명세와 양식
-slides/            1~2주차에 쓴 슬라이드 (3주차부터 사용하지 않음)
-slides/common/     두 과목 공용 덱 (AI 모빌리티가 계속 사용)
+slides/common/     두 과목 공용 덱 (AI 모빌리티가 계속 사용). 주차별 덱은 교재와 겹쳐 지움
 materials/         참고자료, 데이터, 코드
 ```
 
@@ -72,13 +71,13 @@ materials/         참고자료, 데이터, 코드
 | 11 | `lessons/week11.md` | 11장 시뮬레이션 루프 (직접 구현 3) |
 | 12 | `lessons/week12.md` | 기말 발표 |
 
-1~2주차 슬라이드는 `slides/00_orientation/`, `slides/week01/`, `slides/week02/`에 그대로 있습니다.
+1~2주차에 쓴 주차별 슬라이드는 교재와 겹쳐 지웠습니다. 필요하면 git 이력(커밋 1692df2 이전)에서 꺼냅니다.
 
 ## 과제와 프로젝트
 
 - `assignments/hw1.md` ~ `hw3.md`: 과제 명세
-- `assignments/project.md`: 기말 프로젝트 명세 (팀 · 가천대 교내셔틀 무당이)
-- `assignments/project/`: 양식 — 승하차 조사표, RAPTOR 대조표, 정류장·노선 GeoJSON 예시, 보고서 골격, 채점표, 동료평가, 시나리오 카드
+- `assignments/project.md`: 기말 개인 프로젝트 명세 (take-home · 가천대 교내셔틀 무당이 · 발표 없음)
+- `assignments/project/`: 양식 — 승하차 조사표, RAPTOR 대조표, 정류장·노선 GeoJSON 예시, 보고서 골격, 채점표, 시나리오 카드
 
 ## 공용 슬라이드
 

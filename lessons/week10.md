@@ -51,4 +51,4 @@
 
 수요일 수업 후:
 
-> 10주차 수업 정리. 9장 ETA 모델과 10장 배차를 진행했습니다. 다음 주 11장은 직접 구현 3(시뮬레이션 루프)이고 정규 수업 마지막 주입니다. 화요일에 11.1~11.2절을 읽고 labs/ch11_simloop.py의 Vehicle.idle과 build_costs, assign부터 채웁니다. 11주차 프로젝트 산출물(팀 RAPTOR로 무당이 O-D 100건 질의와 참조 엔진 대조표)은 11-10(화) 수업 시작 전 제출입니다. 양식은 assignments/project/raptor_comparison.csv입니다.
+> 10주차 수업 정리. 9장 ETA 모델과 10장 배차를 진행했습니다. 다음 주 11장은 직접 구현 3(시뮬레이션 루프)이고 정규 수업 마지막 주입니다. 화요일에 11.1~11.2절을 읽고 labs/ch11_simloop.py의 Vehicle.idle과 build_costs, assign부터 채웁니다. 11주차 프로젝트 산출물(자기 RAPTOR로 무당이 O-D 100건 질의와 참조 엔진 대조표)은 11-10(화) 수업 시작 전 제출입니다. 양식은 assignments/project/raptor_comparison.csv입니다.

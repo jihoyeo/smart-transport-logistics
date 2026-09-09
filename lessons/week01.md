@@ -2,8 +2,9 @@
 
 교수자용 진행표. 이 주는 슬라이드로 진행했다. 기록용이며, 다음 학기에는 3주차 이후와 같은 형식으로 바꾼다.
 
-- 화요일: 오리엔테이션 덱 `slides/00_orientation/00_orientation.md` (45~50분) + 공용 덱 `slides/common/dev_env.md` (60~75분, AI 모빌리티와 공용)
-- 수요일: 1장 덱 `slides/week01/ch01_why.md`, 0장 덱 `slides/week01/ch00_setup.md`
+- 화요일: 오리엔테이션 덱(45~50분) + 공용 덱 `slides/common/dev_env.md` (60~75분, AI 모빌리티와 공용)
+- 수요일: 1장 덱, 0장 덱
+- 오리엔테이션·1장·0장 덱은 교재와 겹쳐 지웠다. git 이력(커밋 1692df2 이전의 `slides/00_orientation/`, `slides/week01/`)에 남아 있다
 - 교재: 0장 `ko/ch00_setup.md`, 1장 `ko/ch01_why.md`
 - 노트북: `labs/ch00_setup.ipynb` (빈칸: 가장 붐빈 시각, 그때의 대기 승객), `labs/ch01_why.ipynb` (빈칸: 10분 초과 승객, 그 비율, 그들의 평균 대기)
 - 녹화: 없음
