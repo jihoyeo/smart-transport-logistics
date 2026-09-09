@@ -1,0 +1,5 @@
+od_id,origin_stop_id,dest_stop_id,departure,my_arrival,ref_arrival,diff_sec,my_transfers,ref_transfers,within_criteria,note
+1,S01,S07,08:40:00,08:52:00,08:52:00,0,0,0,yes,
+2,S03,S09,08:45:00,09:04:00,09:03:00,60,0,0,yes,
+3,S01,S12,12:10:00,12:31:00,12:29:00,120,1,0,no,S05에서 다른 운행을 탐
+4,S08,S02,17:40:00,unreachable,unreachable,,,,yes,양쪽 다 도달 실패

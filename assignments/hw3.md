@@ -40,6 +40,8 @@
 
 제출: `boarding_survey.csv`. 열은 `stop_id`, `stop_name`, `date`, `time_bin`, `boardings`, `alightings`, `source`입니다. `source`에는 `observed` 또는 `estimated`를 적습니다.
 
+양식은 `assignments/project/boarding_survey.csv`에 있습니다. 헤더와 예시 행을 그대로 두고 아래에 채웁니다.
+
 ### A3. 조사 설계 기록 (10점)
 
 언제, 누가, 어느 정류장에서, 어떤 방법으로 셌는지 적습니다. 사람이 몰려 셀 수 없었던 구간이 있으면 그것도 적습니다.

@@ -66,6 +66,14 @@
 
 - 세부 일정: [schedule.md](schedule.md)
 
+### 강의 녹화
+
+수업 녹화본입니다. 링크를 열고 암호를 입력합니다. 매주 수업 후 여기에 추가합니다.
+
+| 날짜 | 주차 | 내용 | 녹화 | 암호 |
+|---|---|---|---|---|
+| 09-08 (화) | 2주차 | 교재 2장 도로망 데이터 | [Zoom](https://us06web.zoom.us/rec/share/iBTEjMk4RhizW6D8x-gbyZfYoYToURTx_yOTqWwzdk3jqExeElaBDnOc9tTxCwc.2D-BHan2CxP5SSSO) | `GJ1PfSd=` |
+
 ## 5. 평가
 
 | 항목 | 비중 | 비고 |
@@ -111,6 +119,7 @@
   - 개인 평가 45점: 시나리오 설계 20점, 지표 해석 25점
   - 동료평가 결과에 따라 팀 점수 ±10% 조정
 - 세부 요건 및 산출물 일정: [schedule.md](schedule.md)
+- 명세와 양식: [assignments/project.md](assignments/project.md), `assignments/project/`
 
 ### 과제
 
@@ -144,8 +153,9 @@
 ## 7. 수업 운영 정책
 
 - 수업 구성
-  - 화요일: 주요 개념 및 예제 코드
-  - 수요일: 구현 실습 및 연습문제
+  - 화요일: 주요 개념 및 예제 코드. 교재 웹을 화면에 띄우고 절 순서대로 실행
+  - 수요일: 구현 실습. 실습 노트북과 채점 파일의 빈칸을 채움
+  - 별도 슬라이드 없이 교재 웹과 실습 노트북으로 진행. 운영 안내는 사이버캠퍼스 공지
   - 매 수업 노트북 지참
 - LLM 활용
   - ChatGPT, Claude, Gemini 등 사용 가능

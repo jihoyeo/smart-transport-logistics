@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"route_id": "A", "route_name": "예시 노선 A", "stop_sequence": "S01;S02;S03;S01", "circular": true, "origin_stop": "S01", "note": "순환 노선. 기점·종점을 S01로 둔 근거를 report 2.1에 적음"},
+      "geometry": {"type": "LineString", "coordinates": [[127.1265, 37.4487], [127.1280, 37.4510], [127.1300, 37.4530], [127.1265, 37.4487]]}
+    }
+  ]
+}
