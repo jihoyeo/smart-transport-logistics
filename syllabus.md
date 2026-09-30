@@ -72,7 +72,11 @@
 
 | 날짜 | 주차 | 내용 | 녹화 | 암호 |
 |---|---|---|---|---|
-| 09-08 (화) | 2주차 | 교재 2장 도로망 데이터 | [Zoom](https://us06web.zoom.us/rec/share/iBTEjMk4RhizW6D8x-gbyZfYoYToURTx_yOTqWwzdk3jqExeElaBDnOc9tTxCwc.2D-BHan2CxP5SSSO) | `GJ1PfSd=` |
+| 09-08 (화) | 2주차 | 교재 2장 도로망 데이터 | [Zoom](https://us06web.zoom.us/rec/share/HuLU0NCeTqcm1-h1ixv4VEPXjBjdxUflpCUTxksbt8hz4uIHa6MzvedTmepbFq4.G5TXkrBMCprPvARv) | `GJ1PfSd=` |
+| 09-09 (수) | 2주차 | 교재 2장 도로망 실습 | [Zoom](https://us06web.zoom.us/rec/share/KNFq2G26hg-jyKWYHpDIFEqOonGKHyYDD0pFosnDy20OcVdyYSztsM91sZ5YJ_t-.ecEAi0UxzagXTYQW) | `yi*5^0bi` |
+| 09-15 (화) | 3주차 | 교재 3장 최단경로 알고리즘 | [Zoom](https://us06web.zoom.us/rec/share/QUY7KkYEjJOksbgxbsRETs4pw9toyWVviVUMwv9fG0fWD9XRiICKPy_M1zSM5Tqm.svGfISzNolq9xTzr) | `m78#MjSt` |
+| 09-22 (화) | 4주차 | 교재 4장 시간대별 속도 | [Zoom](https://us06web.zoom.us/rec/share/IGsEw1OD5-ONfh6FEvaXwjB-k86iK4yoELoJWnOt-bp6IFGn_YtSDo3oLHsMdW5U.JbqY1-5iccCowngf) | `^r&%F0*M` |
+| 09-23 (수) | 4주차 | 교재 5장 GTFS | [Zoom](https://us06web.zoom.us/rec/share/9Xrv8N2PqHAn_o1QhTdSr4bEwhpUEk00oZ89d2WYVFTd-oXtU1Di_3ekrQ1CVubD.wfh9LgBpw6cVvn2o) | `bRG6+?5W` |
 
 ## 5. 평가
 
@@ -84,8 +88,8 @@
 | 출결 | 10% | 결석 1점/회 감점(1회까지 미차감), 지각 0.5점/회 감점(2회까지 미차감) |
 
 - 성적비율
-  - A: 20%
-  - B: 50%
+  - A: 30%
+  - B: 40%
   - C: 30%
 
 ### 중간시험(10-27)
