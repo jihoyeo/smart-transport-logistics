@@ -77,6 +77,11 @@
 | 09-15 (화) | 3주차 | 교재 3장 최단경로 알고리즘 | [Zoom](https://us06web.zoom.us/rec/share/QUY7KkYEjJOksbgxbsRETs4pw9toyWVviVUMwv9fG0fWD9XRiICKPy_M1zSM5Tqm.svGfISzNolq9xTzr) | `m78#MjSt` |
 | 09-22 (화) | 4주차 | 교재 4장 시간대별 속도 | [Zoom](https://us06web.zoom.us/rec/share/IGsEw1OD5-ONfh6FEvaXwjB-k86iK4yoELoJWnOt-bp6IFGn_YtSDo3oLHsMdW5U.JbqY1-5iccCowngf) | `^r&%F0*M` |
 | 09-23 (수) | 4주차 | 교재 5장 GTFS | [Zoom](https://us06web.zoom.us/rec/share/9Xrv8N2PqHAn_o1QhTdSr4bEwhpUEk00oZ89d2WYVFTd-oXtU1Di_3ekrQ1CVubD.wfh9LgBpw6cVvn2o) | `bRG6+?5W` |
+| 09-30 (수) | 5주차 | 교재 | [Zoom](https://us06web.zoom.us/rec/share/JX_5PjykN-TmbiBcuJ6BDbLGpUPjERVRx9_m0iH-9ru9A8LTN8-fpFM1KHKxYFjB.ZU49pLhGMRVIlqG0) | `B*JiSd0X` |
+| 10-06 (화) | 6주차 | 교재 | [Zoom](https://us06web.zoom.us/rec/share/VLveH8gTVt7CT9U8-qdL5HB8tr1_2cz7MHx2caazhgc8B1C8ILGhMbzQIk7vEuSM.fy4vThPoJcmiYvcD) | `!3Wh#k.a` |
+| 10-14 (수) | 7주차 | 교재 | [Zoom](https://us06web.zoom.us/rec/share/2znszAUdjveD6usvpV_QrlaUCHivxL7fw92QXcoo0rDBcEDIxftqEr6F0-20ZMXo.itpxTOPWByLwFqgF) | `=O95X.3F` |
+
+
 
 ## 5. 평가
 
